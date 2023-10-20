@@ -317,12 +317,12 @@ restart_system(){
 <code>────────────────────</code>
 <b>⚡AUTOSCRIPT PREMIUM⚡</b>
 <code>────────────────────</code>
-<code>Owner    :</code><code>$USRSC</code>
+<code>Owner    :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
 <code>IPVPS    :</code><code>$MYIP</code>
-<code>DATE     :</code><code>$TIME</code>
+<code>DATE     :</code><code>$DATEVPS</code>
 <code>Time     :</code><code>$TIMEZONE</code>
-<code>Exp Sc.  :</code><code>$EXPSC</code>
+<code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
 <b> ILHAM STORE SCRIPT  </b>
 <code>────────────────────</code>
