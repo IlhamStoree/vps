@@ -34,11 +34,11 @@ echo ""
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl -sS https://raw.githubusercontent.com/jeta124/vip/main/izin | grep $MYIP | awk '{print $2}')
+username=$(curl -sS https://raw.githubusercontent.com/IlhamStoree/vps/main/izin | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 # validity
 rm -f /usr/bin/e
-valid=$(curl -sS https://raw.githubusercontent.com/jeta124/vip/main/izin | grep $MYIP | awk '{print $3}')
+valid=$(curl -sS https://raw.githubusercontent.com/IlhamStoree/vps/main/izin | grep $MYIP | awk '{print $3}')
 echo "$valid" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -153,8 +153,8 @@ KIRI="\033[1;32m>\033[1;33m>\033[1;31m>\033[1;31m$NC"
 ########
 r="\033[1;31m"  #REDTERANG
 a=" ${z}ACCOUNT PREMIUM" 
-figlet ONEXD
-echo -e "                  ${KIRI} ${purple}Love Jeta${NC} ${KANAN}"
+figlet ILHAM STORE
+echo -e "                  ${KIRI} ${purple}ILHAM STORE${NC} ${KANAN}"
 #echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 #echo -e " ${z}│$NC\033[96m                     Dragon Tunneling                     $NC${z}│$NC"
 #echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
@@ -181,7 +181,7 @@ echo -e "              VLESS/WS/GRPC${NC}  $y➤$NC $vla$NC" "$a"
 echo -e "              TROJAN/WS/GRPC${NC} $y➤$NC $trb${NC} $a"
 echo -e "              SHADOWSOCKS/WS/GRPC${NC} $y➤$NC $ssa${NC} $a"
 echo -e "        ${z}❒════════════════════════════════════════════❒${NC}" 
-echo -e "                 ${KIRI}${z} Musisi Uku Lele Tunneling ${z}${KANAN}"
+echo -e "           ${KIRI}${z} BERSYUKUR APA YG ADA, RAIH YG BELUM ${z}${KANAN}"
 echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
 echo -e " ${z}│ ${NC}${z} SSH$NC : $status_ssh" "        ${z} NGINX$NC : $status_nginx" "        ${z} XRAY$NC : $status_xray      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $status_ws_epro" "    ${z} DROPBEAR$NC : $status_dropbear" "     ${z} HAPROXY$NC : $status_haproxy   $NC${z}│$NC" 
@@ -197,7 +197,7 @@ echo -e " ${z}╭═════════════════════
 echo -e " ${z}│$NC${z} Version$NC       ${z}=$NC V2.9"
 echo -e " ${z}│$NC${z} ID$NC            ${z}=$NC $username"
 echo -e " ${z}│$NC${z} Script Status$NC ${z}=$NC $sts "
-echo -e " ${z}│$NC${z} Exp Script$NC ${z}=$green $exp $certifacate Days$NC "
+echo -e " ${z}│$NC${z} Exp Script$NC    ${z}=$green $exp $certifacate Days$NC "
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo
 read -p " Select menu : " opt
